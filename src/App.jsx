@@ -1,22 +1,26 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import About from './components/About';
+import Projects from './components/Projects';
+import Tecnologies from './components/Tecnologies';
 import Navbar from './components/Navbar';
 
 export default function App() {
   return (
-    <div className="bg-white text-gray-900 min-h-screen">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-950 to-slate-950 text-white">
+      {/* Navbar siempre visible */}
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+
+      {/* Contenido de las páginas */}
+      <main className="p-2 md:p-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/tecnologies" element={<Tecnologies />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </main>
     </div>
   );
 }
