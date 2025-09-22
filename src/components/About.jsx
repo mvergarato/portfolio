@@ -27,7 +27,7 @@ export default function About() {
         {/* Botón CTA al CV */}
         <div className="flex justify-center mt-6">
           <a
-            href="cv-daw-manuel-vergara.netlify.app" 
+            href="https://cv-daw-manuel-vergara.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-purple-600 hover:bg-purple-500 transition-colors text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:shadow-xl"
