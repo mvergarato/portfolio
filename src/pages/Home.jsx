@@ -29,9 +29,10 @@ export default function Home() {
       {/* Hero */}
       <section
         id="home"
-        className="h-screen flex flex-col justify-center items-center text-center px-4 pt-24"
+        className="h-screen flex flex-col justify-center items-center text-center px-4 scroll-mt-16 md:scroll-mt-24"
       >
-        <div className="w-80 h-80 rounded-full overflow-hidden mb-6 shadow-lg border-4 border-purple-600">
+        {/* Foto solo visible en md+ */}
+        <div className="hidden md:block w-80 h-80 rounded-full overflow-hidden mb-6 shadow-lg border-4 border-purple-600">
           <img
             src={Manuel}
             alt="Foto de Manuel Vergara"
@@ -97,21 +98,21 @@ export default function Home() {
       </section>
 
       {/* Sobre mí */}
-      <section id="about" className="flex flex-col justify-center px-4 w-full py-10">
+      <section id="about" className="flex flex-col justify-center px-4 w-full py-10 scroll-mt-16 md:scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto">
           <About />
         </div>
       </section>
 
       {/* Proyectos */}
-      <section id="projects" className="flex flex-col justify-center px-4 w-full py-10">
+      <section id="projects" className="flex flex-col justify-center px-4 w-full py-10 scroll-mt-16 md:scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto">
           <Projects />
         </div>
       </section>
 
       {/* Tecnologías */}
-      <section id="tecnologies" className="flex flex-col justify-center px-4 w-full py-10">
+      <section id="tecnologies" className="flex flex-col justify-center px-4 w-full py-10 scroll-mt-16 md:scroll-mt-24">
         <div className="w-full max-w-7xl mx-auto">
           <Tecnologies />
         </div>
