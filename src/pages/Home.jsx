@@ -82,11 +82,11 @@ export default function Home() {
             Llamar
           </button>
 
-          <a href="https://www.instagram.com/bambi__dj/" target="_blank" rel="noopener noreferrer"
+          {/*<a href="https://www.instagram.com/bambi__dj/" target="_blank" rel="noopener noreferrer"
              className="bg-black/60 backdrop-blur-md px-5 py-2 rounded-md shadow-md text-white/80 hover:text-purple-300 transition font-normal flex items-center transform duration-300 hover:scale-110">
             <img src={InstagramLogo} alt="Instagram" className="w-5 h-5 mr-2" />
             Instagram
-          </a>
+          </a>*/}
         </div>
 
         {/* Número de teléfono animado */}

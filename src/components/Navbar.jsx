@@ -35,7 +35,6 @@ export default function Navbar() {
       const navbar = document.querySelector('nav');
       const navbarHeight = navbar ? navbar.offsetHeight : 0;
 
-      // Ajuste para que el título quede un poco más arriba del navbar
       const top = el.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 12;
 
       window.scrollTo({ top, behavior: 'smooth' });
@@ -47,7 +46,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-black/60 shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Menú desktop centrado */}
-        <div className="hidden md:flex gap-6 text-lg justify-center flex-1">
+        <div className="hidden md:flex gap-6 text-lg md:text-xl justify-center flex-1">
           {navItems.map(({ label, id }) => (
             <button
               key={id}
