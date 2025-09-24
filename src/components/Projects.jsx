@@ -57,7 +57,7 @@ export default function Projects() {
         { name: 'Prisma', logo: PrismaLogo },
         { name: 'SQLite', logo: SqliteLogo },
       ],
-      github: "https://github.com/tuusuario/bambilab"
+      github: "https://github.com/mvergarato/BambiLab"
     },
     {
       title: "Proyecto Real (Museo)",
@@ -83,7 +83,7 @@ export default function Projects() {
         { name: 'Vercel', logo: VercelLogo },
         { name: 'TailwindCSS', logo: TailwindCSSLogo },
       ],
-      github: "https://github.com/tuusuario/portfolio-personal"
+      github: "https://github.com/mvergarato/portfolio"
     },
   ];
 
