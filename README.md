@@ -1,45 +1,82 @@
 # 🚀 Portfolio
 
-## 📖 Descripción
-Este es mi **portfolio personal**, desarrollado con **React** y **TailwindCSS**, diseñado para mostrar de manera **interactiva y atractiva** mis proyectos, habilidades y experiencia.  
-
-El sitio combina un diseño moderno con secciones dinámicas que permiten a los visitantes conocer mis trabajos y trayectoria de forma clara y agradable. Incluye proyectos destacados, tecnologías que manejo, y contacto, todo optimizado para desktop y dispositivos móviles.
+**Portfolio personal de Manuel Vergara.**  
+Una web interactiva para mostrar mis proyectos, habilidades y experiencia, diseñada para ofrecer una experiencia atractiva y clara tanto en desktop como en móviles.
 
 ---
 
-## 🛠 Tecnologías utilizadas
-- **💻 Frontend:** React  
-- **🎨 Estilos:** TailwindCSS, PostCSS, Autoprefixer  
-- **🌐 Routing:** React Router DOM  
-- **📦 Iconos:** React Icons  
-- **⚡ Build / Dev:** Vite  
+## 🧱 Tech Stack
+
+- **Frontend:** React (Vite)  
+- **Estilos:** TailwindCSS, PostCSS, Autoprefixer  
+- **Routing:** React Router DOM  
+- **Iconos:** React Icons  
+- **Build / Dev:** Vite  
 
 ---
 
-## ⚙️ Instalación y ejecución
+## 🚀 Instalación y Ejecución Local
 
-Clonar el repositorio:
+### 1. Clona el repositorio
 
-```git clone https://github.com/tu-usuario/manuel-vergara-portfolio.git```
+```bash
+git clone https://github.com/tu-usuario/manuel-vergara-portfolio.git
+cd manuel-vergara-portfolio
+```
 
-Ir a la carpeta del proyecto:
+### 2. Estructura del Proyecto
 
-```cd manuel-vergara-portfolio```
+```bash
+manuel-vergara-portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
 
-Instalar dependencias:
+## 🖥️ Frontend (React + TailwindCSS)
+Instalación
 
-```npm install```
+```bash
+npm install
+npm run dev
+```
 
-Ejecutar en modo desarrollo:
+```bash
+Estructura Inicial
+src/
+├── assets/             # Imágenes y logos
+├── components/         # Componentes reutilizables
+├── pages/              # Secciones principales
+├── App.jsx             # Componente raíz
+└── main.jsx            # Entry point
+```
 
-```npm run dev```
+## 📦 Scripts Útiles
+Frontend
 
-El proyecto estará disponible en http://localhost:5173.
+```bash
+npm run dev         # Modo desarrollo
+npm run build       # Build de producción
+npm run preview     # Previsualizar build
+```
 
-Generar build de producción:
+## ✅ Checklist Inicial
 
-```npm run build```
+ - Estructura básica del frontend
 
-Previsualizar el build:
+ - Secciones de proyectos, tecnologías y contacto
 
-```npm run preview```
+ - UI interactiva y responsiva
+
+ - Integración de imágenes y logos
+
+## ✨ Contribuciones
+
+¡Pull requests y sugerencias son bienvenidas!
+Hecho con ❤️ por @mvergarato
