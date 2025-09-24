@@ -46,7 +46,7 @@ export default function Projects() {
   const projectList = [
     {
       title: "BambiLab",
-      info: "BambiLab — Proyecto desarrollado con foco en rendimiento y experiencia de usuario. Implementa un frontend en React + Vite con TailwindCSS, lógica en JavaScript y backend ligero con Node.js. Persistencia mediante Prisma sobre SQLite. Incluye diseño responsive y varias vistas/capturas.",
+      info: "Una plataforma diseñada para productores musicales y artistas donde pueden encontrar y compartir plugins, beats, samples, etc. El objetivo es ofrecer un entorno práctico y creativo que ayude a los músicos a potenciar sus producciones y a impulsar su carrera artística.",
       images: [Bambi1, Bambi2, Bambi3, Bambi4, Bambi5],
       technologies: [
         { name: 'React', logo: ReactLogo },
@@ -61,7 +61,7 @@ export default function Projects() {
     },
     {
       title: "Proyecto Real (Museo)",
-      info: "Proyecto Real para un Museo — Desarrollo de una aplicación completa con Angular en el frontend, TailwindCSS para estilos y TypeScript como lenguaje principal. Backend basado en Symfony con persistencia en PostgreSQL y contenedores Docker para despliegue. Se trabajó en escalabilidad y optimización de rendimiento.",
+      info: "Desarrollo de la página oficial de un museo real, pensada para mejorar la experiencia de los visitantes. Incluye funcionalidades como compra de entradas online, selección de horarios de visitas, información sobre exposiciones y una tienda virtual de recuerdos, todo en un entorno moderno y fácil de usar.",
       images: [Museo1, Museo2, MuseoR, Museo4],
       technologies: [
         { name: 'Angular', logo: AngularLogo },
@@ -74,7 +74,7 @@ export default function Projects() {
     },
     {
       title: "Portfolio Personal",
-      info: "Portfolio personal desarrollado con React y TailwindCSS, usando React Router para navegación entre secciones, carrusel de imágenes, diseño responsive y animaciones suaves.",
+      info: "Un sitio web interactivo y dinámico que refleja mi trayectoria, proyectos y habilidades. Diseñado para ser intuitivo y atractivo, combina secciones informativas con elementos visuales modernos, permitiendo que los visitantes conozcan de forma cercana mi experiencia y estilo como desarrollador.",
       images: [PortfolioHome, PortfolioTecnologias],
       technologies: [
         { name: 'React', logo: ReactLogo },
@@ -239,7 +239,7 @@ export default function Projects() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 transition text-white text-sm px-3 py-1 rounded-lg shadow-md"
+                      className="flex items-center gap-2 bg-gray-900 hover:bg-gray-600 transition text-white text-sm px-3 py-1 rounded-lg shadow-md"
                     >
                       <img src={GitHubLogo} alt="GitHub" className="w-4 h-4" />
                       Código
