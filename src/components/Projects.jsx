@@ -18,11 +18,11 @@ import PortfolioHome from "../assets/proyecto3-home.png";
 import PortfolioTecnologias from "../assets/proyecto3-tecnologias.png";
 
 // Imágenes The Coffee Spot (Proyecto 4)
-import Coffee1 from "../assets/coffee-1.png";
-import Coffee2 from "../assets/coffee-2.png";
-import Coffee3 from "../assets/coffee-3.png";
-import Coffee4 from "../assets/coffee-4.png";
-import Coffee5 from "../assets/coffee-5.png";
+import Coffee1 from "../assets/Coffee-1.png";
+import Coffee2 from "../assets/Coffee-2.png";
+import Coffee3 from "../assets/Coffee-3.png";
+import Coffee4 from "../assets/Coffee-4.png";
+import Coffee5 from "../assets/Coffee-5.png";
 
 // Logos de tecnologías
 import Html5Logo from '../assets/html5-logo.png';
